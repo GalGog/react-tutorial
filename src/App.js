@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Table from "./Table";
 import TableHeader from "./TableHeader";
 import TableBody from "./TableBody";
+import TopTable from "./TopTable";
 
 
 class App extends Component {
@@ -11,9 +11,10 @@ class App extends Component {
         return (
             <div className="conteiner">
                 <h1 className="site-heading">Hello, React!</h1>
-                <Table />
                 <TableHeader />
                 <TableBody />
+                <hr/>
+                <TopTable />
             </div>
         );
     }

@@ -19,22 +19,6 @@ const TableBody = () => {
             <td>Dennis</td>
             <td>Bartender</td>
         </tr>
-        <tr>
-            <td>Dee</td>
-            <td>Aspiring actress</td>
-        </tr>
-        <tr>
-            <td>Dennis</td>
-            <td>Bartender</td>
-        </tr>
-        <tr>
-            <td>Dee</td>
-            <td>Aspiring actress</td>
-        </tr>
-        <tr>
-            <td>Dennis</td>
-            <td>Bartender</td>
-        </tr>
         </tbody>
     );
 }
