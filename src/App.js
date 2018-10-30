@@ -45,7 +45,7 @@ class App extends Component {
             <div className="App">
                 <h1>Hello, React!</h1>
                 <Table
-                    characterData={characters}
+                    characterData={this.state.characters}
                 removeCharacter={this.removeCharacter}
                 />
             </div>
