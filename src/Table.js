@@ -5,11 +5,14 @@ import TableEnd from './TableEnd'
 
 class Table extends Component {
     render() {
+        const {characterData, removeCharacter } = this.props;
 
         return (
             <table>
                 <TableHeader />
-                <TableBody characterData={this.props.characterData} />
+                <TableBody characterData={characterData}
+                removeCharacter={removeCharacter}
+                />
                 <TableEnd />
             </table>
 
